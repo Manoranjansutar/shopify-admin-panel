@@ -1,0 +1,141 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Source Code Pro', monospace;
+}
+
+:root{
+  --main-color : #ff014f
+}
+
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: space-center;
+  align-items: center;
+}
+
+.middle{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  gap: 10px;
+}
+
+.dashboard{
+
+}
+
+.dashboard-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  color: white;
+  padding: 8px;
+  background-color: black;
+  gap: 0.25rem;
+  margin-top: 10px;
+}
+
+.dashboard .dashboard-container{
+  width: 280px;
+  height: 150px;
+  /* border: 1px solid black; */
+  margin: auto;
+  border-radius: 10px;
+}
+
+.dashboard p{
+  font-size: 40px;
+}
+
+.dashboard-icon{
+  font-size: 80px;
+}
+
+.dashboard-item{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+}
+
+
+.dashboard .element-1:hover{
+  background-color:  rgb(217, 0, 255);
+}
+
+.dashboard .element-2:hover{
+  background-color:  rgb(255, 153, 0);
+}
+
+.dashboard .element-3:hover{
+  background-color: rgb(0, 188, 212);
+}
+
+.dashboard .element-4:hover{
+  background-color:  green;
+}
+
+/* .dashboard .element-1:hover{
+  background-color: white;
+  color: rgb(186, 104, 200);
+}
+
+.dashboard .element-2:hover{
+  background-color: black;
+}
+
+.dashboard .element-3:hover{
+  background-color: black;
+}
+
+.dashboard .element-4:hover{
+  background-color: black;
+} */
+
+.dashboard > div:hover{
+  background-color: black;
+  color: white;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2e2e2e #f1f1f1;
+}
+
+/* Chromium-based browsers */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  height: 8px; /* Height of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the track (area behind the scrollbar) */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Color of the scrollbar thumb (the draggable part) */
+  border-radius: 4px; /* Rounded corners for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa; /* Color of the scrollbar thumb on hover */
+}
+
+
+
+
